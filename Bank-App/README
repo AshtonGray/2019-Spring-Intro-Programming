@@ -1,0 +1,30 @@
+This project is a demonstration of object oriented programming using class, instance variables, and methods.
+
+Bank.py contains the class BankAccount and the main function
+expenses.txt is an input file containing a list of monthly expenses
+Amortization.txt is the output from app3
+budget.txt and budget-sorted.txt is the output from app4
+
+- BankAccount class can deposit and withdraw
+
+App1:
+- Takes input of salary and initial balances for checking and saving accounts
+- Calculates salary increasing by .2% per month, with 80% going to expenses, and 15% transferred to savings
+- Outputs budget for first 12 months, and the new balances after the end of the year
+
+App2:
+- Takes input of initial balance and interest rate for savings account
+- Calculate and display how many years to triple balance
+- Calculate and display if it would be better to contribute 5% of initial amount every year
+- Calculate and display if it would be better if interest rate grew by 0.5% every year
+
+App3:
+- Takes input of amount to borrow, rate, and monthly payment for a mortgage
+- Calculate and display how long it will take to pay off the mortgage
+- Calculate and display how much would be borrowed vs. paid with interest
+- Output into amortization.txt the month, principal paid, and interest paid
+
+App4:
+- Input expense.txt, a list of expenses with their cost
+- Load the file and regroup all similar categories along with their total costs
+- Ouput this information into a new file budget.txt
