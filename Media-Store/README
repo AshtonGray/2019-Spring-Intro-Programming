@@ -1,0 +1,18 @@
+This project implements a basic media library system, where the user can add or remove items.
+Each entry in the library contains an attribute of media (movie/book), reference #, Title, and price.
+A book includes information such as the author, while a movie provides information on the director and lead actor.
+
+MediaItem.py contains the object data
+inventory.py contains all functions for the system
+media-store.py contains the main program
+
+This system is able to:
+- Give the list inventory
+- Info of inventory
+- List of all books
+- List of all movies
+- Item description
+- Remove an item
+- Add an item
+- Set maximum price
+- Exit
