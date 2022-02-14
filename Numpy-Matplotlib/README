@@ -1,0 +1,24 @@
+app1:
+- Calculating pi using random numbers using monte-carlo integration
+- Output estimation of pi using 1, 10, 100, 1000, 10000, 100000, and 1000000 samples
+- Output a graph with the number of samples with its estimation of pi
+- Output a figure of the same thing
+
+app2:
+- Calculate area of triangles using random numbers
+- Input the x,y of the three vertices
+- Output estimation of the area using 1, 10, 100, 1000, 10000, and 100000 samples
+- Output a graph with the number of samples with its estimation of pi
+- Output a figure of the same thing
+
+app3:
+- Calculate and show a newton fractal using the newton-raphson iteration method
+- Inputs a value for n , for the equation: z**n=1
+- Input xmin, xmax, ymin, and ymax
+- Output the solutions of the equation
+- Display a figure of the graph of the equation
+
+app4:
+- Takes an input matrix of an image
+- Compresses and outputs an image
+- Uncompresses and outputs the image
