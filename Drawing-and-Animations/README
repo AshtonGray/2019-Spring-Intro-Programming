@@ -1,0 +1,25 @@
+Four files that use tkinter.
+
+mapping_for_Tkinter.py: contains a class used by other files and the main function
+plotter.py: plots mathematical functions
+bouncing_ball.py: simulates a bouncing ball
+cannon_ball.py: simulates a cannon ball
+
+mapping_for_Tkinter.py
+- get_x / get_y: inputs the x and y coordinate of the canvas and returns the math format
+- get_i / get_j: inputs the x and y in math format and returns the tkinter format
+- Outputs a rectangle, circle, and diagonal line
+
+plotter.py
+- inputs a math formula using the x variable, such as: 0.4*x*sqrt(abs(x))
+- inputs xmin, xmax, ymin, and ymax 
+- Outputs the plotted equation
+
+bouncing_ball.py
+- inputs xmin, xmax, ymin, ymax
+- inputs x0, y0, v, theta | initial x an y coordinates with velocity and angle
+- outputs a video with a ball bouncing off the sides of the plotted area with total number of rebounds
+
+cannonball.py
+- inputs v, theta, strength
+- outputs a video of the projectile motion of a ball with the given inputs
