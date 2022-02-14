@@ -1,0 +1,6 @@
+This project takes a, b, and c as an input for the quadratic equation: f(x)=ax^2+bx+c
+
+- For a given x, it will calculate f(x)
+- It will output the x and f(x) value for a minimim or maximum
+- It will output the discriminant and roots (even complex solutions)
+- It can factorize the polynomial
